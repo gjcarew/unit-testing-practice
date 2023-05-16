@@ -6,19 +6,19 @@ var makePizza = require('./practice').makePizza;
 
 describe('practice', function () {
   describe('findRemainder', function () {
-    it.skip('should calculate the remainder when dividing the first number by the second', function () {
+    it('should calculate the remainder when dividing the first number by the second', function () {
       var remainder = findRemainder(12, 5);
 
       assert.equal(remainder, 2);
     });
 
-    it.skip('should calculate the remainder for a different set of numbers', function () {
+    it('should calculate the remainder for a different set of numbers', function () {
       var remainder = findRemainder(12, 7);
 
       assert.equal(remainder, 5);
     })
 
-    it.skip('should return 0 if the number can be divided easily', function () {
+    it('should return 0 if the number can be divided easily', function () {
       var remainder = findRemainder(20, 4);
 
       assert.equal(remainder, 0)

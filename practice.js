@@ -1,10 +1,9 @@
-function findRemainder() {
-
+function findRemainder(n1, n2) {
+    return n1 % n2;
 }
-
 module.exports = {
-  findRemainder,
-  // startGPS,
-  // createUser,
-  // makePizza
-}
+    findRemainder: findRemainder,
+    // startGPS,
+    // createUser,
+    // makePizza
+};
